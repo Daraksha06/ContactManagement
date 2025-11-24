@@ -1,0 +1,22 @@
+.maindiv{
+    width: 300px;
+    border: 2px solid blue;
+    padding: 20px ;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    top: 25%;
+    left: 37%;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+body{
+    background-color: rgba(202, 207, 234, 0.673);
+}
+
+.maindiv:last-child{
+    align-items: center;
+}
